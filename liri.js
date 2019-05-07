@@ -1,8 +1,5 @@
 require("dotenv").config();
 const keys = require("./keys.js");
-// const spotifyapi = require("./API/spotify");
-// const movie = require("./APIs/movie");
-// const command = process.argv[2];
 const axios = require("axios");
 const moment = require("moment");
 const fs = require("fs");
@@ -125,41 +122,3 @@ const runArgs = (argOne, argTwo) => {
 };
 
 runArgs(process.argv[2], process.argv.slice(3).join(" "));
-
-// let s = process.argv.slice(3).join(" ");
-
-// const getMovie = movie => {
-//   axios.get(`http://img.omdbapi.com/?apikey=trilogy&t=${movie}`).then(res => {
-//     console.log(res.data);
-//   });
-// };
-
-// const getTweets = () => {
-//   axios
-//     .get("....twitterAPI")
-//     .then(res => {
-//       console.log(res);
-//     })
-//     .catch(err => {
-//       return err;
-//     });
-// };
-
-// const getBands = () => {
-//   axios
-//     .get(
-//       `https://rest.bandsintown.com/artists/${artist}/events?app_id=codingbootcamp`
-//     )
-//     .then(res => {
-//       res.data.forEach(e => {
-//         console.log(e.venue.country);
-//       });
-//     })
-//     .catch(err => {
-//       return err;
-//     });
-// };
-
-// module.exports = {
-//   getBands: getBands
-// };
