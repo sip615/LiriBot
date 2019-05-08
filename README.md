@@ -35,3 +35,9 @@ This is a special command. This command is used the following way:
 `node liri.js do-what-it-says`
 
 The above command doesn't take a second argument, because the argument comes from the random.txt file found in the repository. Liri will retrieve the information from the file, which is currently written to take the argument 'I Want it That Way' from the spotify-this command.
+
+### Demo
+
+A demo of this CLI app can be found at the following link:
+
+`https://youtu.be/dT2uRk08NUo`
